@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
+
 ReactDom.render(
   <div>
     <h1 className="heading" contentEditable="true" spellCheck="true">
@@ -11,5 +12,6 @@ ReactDom.render(
       <li>Noodles</li>
     </ul>
   </div>,
+
   document.getElementById("root")
 );
